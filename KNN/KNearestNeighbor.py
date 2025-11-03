@@ -1,32 +1,48 @@
-import operator
+import numpy as np
 from collections import Counter
 
+
 class KNearestNeighbors:
-    def __init__(self,k):
-        self.k=k
+    """A very small KNN implementation for educational/demo use.
 
-    def fit(self,X_train,y_train):
-        self.X_train=X_train
-        self.y_train=y_train
-        print("Training Done")
+    Notes:
+    - Expects X_train and X_test to be array-like with shape (n_samples, n_features).
+    - predict returns a 1-D numpy array of predicted labels.
+    """
 
-    def predict(self,X_test):
+    def __init__(self, k=3):
+        self.k = int(k)
 
-        distance={}
-        counter=1
+    def fit(self, X_train, y_train):
+        self.X_train = np.asarray(X_train)
+        self.y_train = np.asarray(y_train)
+        return self
 
-        for i in self.X_train:
-            distance[counter]=((X_test[0][0]-i[0])**2 + (X_test[0][1]-i[1])**2)**1/2
-            counter=counter+1
-        distance=sorted(distance.items(), key=operator.itemgetter(1))
+    def predict(self, X_test):
+        X_test = np.asarray(X_test)
+        results = []
 
-        self.classify(distance=distance[:self.k])
+        for x in X_test:
+            # compute distances to all training points
+            distances = []
+            for idx, train_row in enumerate(self.X_train):
+                dist = np.linalg.norm(x - train_row)
+                distances.append((idx, dist))
 
-    def classify(self,distance):
-        label=[]
+            # sort by distance and take k nearest
+            distances = sorted(distances, key=lambda t: t[1])
+            k_nearest = distances[: self.k]
 
-        for i in distance:
-            label.append(self.y_train[i[0]])
+            # determine label
+            label = self.classify(k_nearest)
+            results.append(label)
 
-        return Counter(label).most_common()[0][0]
-        
+        return np.array(results)
+
+    def classify(self, distance):
+        """distance: iterable of (index, distance) tuples for nearest neighbours"""
+        labels = []
+        for idx, _ in distance:
+            labels.append(self.y_train[idx])
+
+        return Counter(labels).most_common(1)[0][0]
