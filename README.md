@@ -451,8 +451,8 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 > *"Learn the math. Build the code. Train the mind."* 🧠
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nitin-Prata)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nitin-singh-bb7907298/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nitinpratap997@gmail.com)
 
 </div>
 
@@ -503,7 +503,8 @@ If you find this repository helpful, please consider:
 
 Special thanks to:
 
-- **Andrew Ng** for his legendary Machine Learning course
+- **Andrew Ng** for his legendary Machine Learning course that inspired this project
+- **CampusX** for their exceptional ML tutorials and educational content
 - **Scikit-Learn** team for the amazing library
 - **NumPy** contributors for the numerical computing foundation
 - The **open-source community** for inspiration
