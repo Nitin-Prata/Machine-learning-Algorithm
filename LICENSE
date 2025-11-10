@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Nitin-Prata
+Copyright (c) 2024 Nitin Pratap Singh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,24 +19,144 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-MIT License
 
-Copyright (c) 2025 Nitin-Prata
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## About This License
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The MIT License is a permissive free software license that puts very limited 
+restrictions on reuse. It permits reuse within proprietary software provided 
+that all copies include the license terms.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+### What You Can Do
+
+✅ **Commercial Use** - You can use this software for commercial purposes
+✅ **Modification** - You can modify the software
+✅ **Distribution** - You can distribute the software
+✅ **Private Use** - You can use the software privately
+✅ **Sublicense** - You can grant a sublicense to modify and distribute
+
+### What You Must Do
+
+📋 **Include License** - You must include the license and copyright notice with the software
+📋 **Include Copyright** - You must include the original copyright notice
+
+### What You Cannot Do
+
+❌ **Liability** - The software is provided "as is", without warranty
+❌ **Warranty** - The author cannot be held liable for any damages
+
+---
+
+## Attribution
+
+If you use this project in your work, a citation or attribution would be appreciated:
+
+### Citation Format
+
+**APA Style:**
+```
+Singh, N. P. (2024). Machine Learning Algorithms - From Scratch & Scikit-Learn 
+[Computer software]. GitHub. https://github.com/Nitin-Prata/Machine-learning-Algorithm
+```
+
+**BibTeX:**
+```bibtex
+@software{singh2024mlalgorithms,
+  author = {Singh, Nitin Pratap},
+  title = {Machine Learning Algorithms - From Scratch \& Scikit-Learn},
+  year = {2024},
+  publisher = {GitHub},
+  url = {https://github.com/Nitin-Prata/Machine-learning-Algorithm}
+}
+```
+
+**Chicago Style:**
+```
+Singh, Nitin Pratap. 2024. "Machine Learning Algorithms - From Scratch & Scikit-Learn." 
+GitHub repository. https://github.com/Nitin-Prata/Machine-learning-Algorithm
+```
+
+### Markdown Badge
+
+You can also include this badge in your project:
+
+```markdown
+[![ML Algorithms](https://img.shields.io/badge/Built_with-ML_Algorithms-blue?style=flat-square)](https://github.com/Nitin-Prata/Machine-learning-Algorithm)
+```
+
+---
+
+## Third-Party Licenses
+
+This project uses the following open-source libraries:
+
+### Core Dependencies
+
+**NumPy** - BSD 3-Clause License
+```
+Copyright (c) 2005-2024, NumPy Developers
+https://numpy.org/doc/stable/license.html
+```
+
+**Pandas** - BSD 3-Clause License
+```
+Copyright (c) 2008-2024, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+https://pandas.pydata.org/pandas-docs/stable/getting_started/overview.html#license
+```
+
+**Matplotlib** - PSF-based License
+```
+Copyright (c) 2002-2024 Matplotlib Development Team
+https://matplotlib.org/stable/users/project/license.html
+```
+
+**Scikit-Learn** - BSD 3-Clause License
+```
+Copyright (c) 2007-2024 The scikit-learn developers
+https://scikit-learn.org/stable/about.html#license
+```
+
+All third-party libraries retain their original licenses and copyrights.
+
+---
+
+## Contact
+
+For questions about the license or usage:
+
+📧 **Email**: nitinpratap997@gmail.com
+🔗 **GitHub**: [@Nitin-Prata](https://github.com/Nitin-Prata)
+💼 **LinkedIn**: [Nitin Singh](https://www.linkedin.com/in/nitin-singh-bb7907298/)
+
+---
+
+## Frequently Asked Questions
+
+### Can I use this for commercial projects?
+Yes! The MIT License allows commercial use.
+
+### Do I need to include the license file?
+Yes, you must include the LICENSE file with any distributions.
+
+### Can I modify the code?
+Absolutely! Feel free to modify and adapt the code for your needs.
+
+### Do I need permission to use this?
+No explicit permission needed. The MIT License grants you the rights automatically.
+
+### Can I contribute back?
+Contributions are always welcome! See CONTRIBUTING.md for guidelines.
+
+### What if I find a bug?
+Please open an issue on GitHub. While there's no warranty, we'll do our best to help!
+
+---
+
+<div align="center">
+
+**Happy Learning & Coding!** 🚀
+
+*Last Updated: 2024*
+
+</div>
