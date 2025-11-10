@@ -446,7 +446,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 🎓 B.Tech in Computer Science (AI) | India 🇮🇳
 
-💼 Passionate about Machine Learning, AI Education & Open Source
+💼 Machine Learning, AI Education & Open Source
 
 > *"Learn the math. Build the code. Train the mind."* 🧠
 
